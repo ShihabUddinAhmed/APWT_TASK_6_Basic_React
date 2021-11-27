@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/student-list">
             <StudentList />
           </Route>
-          <Route exact path="/student-list/details">
+          <Route exact path="/student-list/:name/:id/:cgpa/:pass">
             <StudentDetails />
           </Route>
         </Switch>
